@@ -8,3 +8,5 @@ install/ run this command
 npm install @tensorflow/tfjs @tensorflow-models/face-landmarks-detection
 
 But this one didn't work on npm-based react projects. Therefore I created another repo from yarn react and through that, I was able to overcome these issues. 
+
+I think the reason for this issue is, NPM doesn't support conflicting version numbers of imported libraries. Therefore it would be better if you can use Yarn.
